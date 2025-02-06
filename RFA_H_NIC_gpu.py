@@ -54,7 +54,7 @@ if __name__ == '__main__':
     parser.add_argument('--K', type=int, default=8)
     parser.add_argument('--act', type=str, default='exp') # exp, tanh
     parser.add_argument('--norm', type=int, default=1) # 0: n/a, 1: z-norm, 2: l2-norm
-    parser.add_argument('--init', type=str, default=1) # 0: new rand init, 1: saved rand init
+    parser.add_argument('--init', type=int, default=1) # 0: new rand init, 1: saved rand init
     args = parser.parse_args()
     # ==========
     data_name = args.data_name # Dataset name
