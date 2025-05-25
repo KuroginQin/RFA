@@ -18,6 +18,8 @@ If you have any questions regarding this repository, you can contact the author 
 * scikit-learn
 
 ### Usage
+The pro-processed large datasets (i.e., Flickr, Youtube, and Orkut) can be downloaded via this [link](https://drive.google.com/file/d/1XsRByLfl6dijv-DvWN4DYW7Cn5Qav6i8/view?usp=drive_link). Please unzip the file and put datasets under ./data.
+
 To run CPU version of **RFA(H)** on USA:
 ```
 python RFA_H_NIC.py --data_name usa --d 64 --tau 20 --K 7 --act exp --norm 1 --init 1
